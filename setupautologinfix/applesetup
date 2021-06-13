@@ -1,0 +1,15 @@
+#!/bin/sh
+#!/bin/bash
+# simple Bash Menu Script by jackluke
+
+printf "Monterey beta setup assistant autologinfix by jackluke"
+
+printf "\n\n\n"
+
+echo "Welcome to Monterey beta setup assistant autologinfix"
+echo "\nBased on the ASentientBot auto login for non metal workaround"
+mount -P 2
+cd /private/var/db/
+rm .AppleSetupDone
+echo "\nBooting to setup assistant"
+exit
