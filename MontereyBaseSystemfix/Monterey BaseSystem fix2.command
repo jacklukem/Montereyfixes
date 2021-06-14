@@ -50,6 +50,7 @@ mv /private/tmp/IntelHD4000beta3.zip .
 mv /private/tmp/AppleIntelGraphicsShared.zip .
 cd ..
 mv HaxFixUSB/* .
+mv VolumeIcon.icns .VolumeIcon.icns
 rm -r HaxFixUSB __MACOSX
 echo "Done"
 echo "\nAfter reboot your Monterey should use a patched BaseSystem with stock BootKernelExtensions.kc\n \n"
