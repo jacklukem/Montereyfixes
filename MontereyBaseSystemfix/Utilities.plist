@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Buttons</key>
+	<array>
+		<dict>
+			<key>BundlePath</key>
+			<string>/System/Installation/CDIS/Time Machine System Restore.app</string>
+			<key>DescriptionKey</key>
+			<string>If you have backup of your system that you want to restore.</string>
+			<key>Path</key>
+			<string>/System/Installation/CDIS/Time Machine System Restore.app/Contents/MacOS/Time Machine System Restore</string>
+			<key>TitleKey</key>
+			<string>Restore from Time Machine</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<array>
+				<string>-RunInOSIEnv</string>
+			</array>
+			<key>BundlePath</key>
+			<string>/Install macOS Big Sur Beta.app</string>
+			<key>IsInstallAssistant</key>
+			<true/>
+			<key>Path</key>
+			<string>/Install macOS Big Sur Beta.app/Contents/MacOS/InstallAssistant</string>
+		</dict>
+		<dict>
+			<key>BundlePath</key>
+			<string>/Applications/Safari.app</string>
+			<key>DescriptionKey</key>
+			<string>Browse Apple Support to get help with your Mac.</string>
+			<key>Path</key>
+			<string>/Applications/Safari.app/Contents/MacOS/Safari</string>
+			<key>TitleKey</key>
+			<string>Safari</string>
+		</dict>
+		<dict>
+			<key>BundlePath</key>
+			<string>/System/Applications/Utilities/Disk Utility.app</string>
+			<key>DescriptionKey</key>
+			<string>Repair or erase a disk using Disk Utility.</string>
+			<key>Path</key>
+			<string>/System/Applications/Utilities/Disk Utility.app/Contents/MacOS/Disk Utility</string>
+			<key>TitleKey</key>
+			<string>Disk Utility</string>
+		</dict>
+
+		<dict>
+			<key>BundlePath</key>
+			<string>/Applications/Hax.app</string>
+			<key>DescriptionKey</key>
+			<string>Installer fix through ASentientBot HaxLib dylib</string>
+			<key>Path</key>
+			<string>/Applications/Hax.app/Contents/Resources/hax</string>
+			<key>TitleKey</key>
+			<string>Hax Installer fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<true/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixesMenu.app</string>
+			<key>DescriptionKey</key>
+			<string>MontereyFixes by jacklukem GitHub</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixesMenu.app/Contents/MacOS/MontereyFixesMenu</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes Menu</string>
+		</dict>
+
+		<dict>
+			<key>BundlePath</key>
+			<string>/Applications/OpenCoreAPFSloader4.app</string>
+			<key>DescriptionKey</key>
+			<string>4b2 on internal disk customized by jackluke MacRumors</string>
+			<key>Path</key>
+			<string>/Applications/OpenCoreAPFSloader4.app/Contents/MacOS/OpenCoreAPFSloader4</string>
+			<key>TitleKey</key>
+			<string>Install OpenCoreAPFSloader</string>
+		</dict>
+
+	</array>
+	<key>Menu</key>
+	<array>
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/System/Applications/Utilities/Startup Security Utility.app</string>
+			<key>Path</key>
+			<string>/System/Applications/Utilities/Startup Security Utility.app/Contents/MacOS/Startup Security Utility</string>
+			<key>TitleKey</key>
+			<string>Startup Security Utility</string>
+		</dict>
+		<dict>
+			<key>BundlePath</key>
+			<string>/System/Applications/Utilities/Terminal.app</string>
+			<key>Path</key>
+			<string>/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal</string>
+			<key>TitleKey</key>
+			<string>Terminal</string>
+		</dict>
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/System/Installation/CDIS/Share Disk.app</string>
+			<key>Path</key>
+			<string>/System/Installation/CDIS/Share Disk.app/Contents/MacOS/Share Disk</string>
+			<key>TitleKey</key>
+			<string>Share Disk…</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/System/Library/CoreServices/VoiceOver.app</string>
+			<key>Path</key>
+			<string>/System/Library/CoreServices/VoiceOver.app/Contents/MacOS/VoiceOverStarter</string>
+			<key>TitleKey</key>
+			<string>VoiceOver</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/kb.app</string>
+			<key>Path</key>
+			<string>/Applications/kb.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>Keyboard backlit enabler</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/spctl.app</string>
+			<key>Path</key>
+			<string>/Applications/spctl.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>Kernel Extensions Loading</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/smc.app</string>
+			<key>Path</key>
+			<string>/Applications/smc.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>Fans speed for CPU cooling</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/Hax.app</string>
+			<key>Path</key>
+			<string>/Applications/Hax.app/Contents/MacOS/Hax</string>
+			<key>TitleKey</key>
+			<string>Hax Installer fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Install macOS Big Sur Beta.app</string>
+			<key>IsInstallAssistant</key>
+			<true/>
+			<key>Path</key>
+			<string>/Install macOS Big Sur Beta.app/Contents/MacOS/InstallAssistant</string>
+			<key>TitleKey</key>
+			<string>Install macOS Big Sur</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes snapshot booting</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<true/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes2.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes2.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes disable snapshot</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes3.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes3.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes applesetupundone</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes4.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes4.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes Legacy USB patches</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes5.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes5.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes delete snapshot</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes6.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes6.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes non Metal GPUs drivers</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes7.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes7.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes custom kext</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes8.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes8.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes IntelHD4000</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes9.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes9.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes non Metal autologinfix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixesreinst.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixesreinst.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>Force downgrade reinstall on low space</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixesBootfix.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixesBootfix.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes Continuity fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixesFramework.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixesFramework.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes Night Shift patch</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<true/>
+			<key>BundlePath</key>
+			<string>/Applications/Montereystage2fix.app</string>
+			<key>Path</key>
+			<string>/Applications/Montereystage2fix.app/Contents/MacOS/Montereystage2fix</string>
+			<key>TitleKey</key>
+			<string>Monterey stage2 installer fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/Montereystage3fix.app</string>
+			<key>Path</key>
+			<string>/Applications/Montereystage3fix.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>Monterey update preboot fixes</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/OpenCoreAPFSloader4.app</string>
+			<key>Path</key>
+			<string>/Applications/OpenCoreAPFSloader4.app/Contents/MacOS/OpenCoreAPFSloader4</string>
+			<key>TitleKey</key>
+			<string>Install OpenCoreAPFSloader4b</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/OpenCoreAPFSloader4b1.app</string>
+			<key>Path</key>
+			<string>/Applications/OpenCoreAPFSloader4b1.app/Contents/MacOS/OpenCoreAPFSloader4b1</string>
+			<key>TitleKey</key>
+			<string>Update OC config 4b ACPI fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/OpenCoreAPFSloader3.app</string>
+			<key>Path</key>
+			<string>/Applications/OpenCoreAPFSloader3.app/Contents/MacOS/OpenCoreAPFSloader3</string>
+			<key>TitleKey</key>
+			<string>Install OpenCoreAPFSloader3</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/OpenCoreAPFSloader4.app</string>
+			<key>Path</key>
+			<string>/Applications/OpenCoreAPFSloader4.app/Contents/Resources/uninstall</string>
+			<key>TitleKey</key>
+			<string>Uninstall OpenCoreAPFSloader</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/refind.app</string>
+			<key>Path</key>
+			<string>/Applications/refind.app/Contents/MacOS/refind</string>
+			<key>TitleKey</key>
+			<string>Install Refindplus</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/refind.app</string>
+			<key>Path</key>
+			<string>/Applications/refind.app/Contents/Resources/uninstall</string>
+			<key>TitleKey</key>
+			<string>Uninstall Refindplus</string>
+		</dict>
+
+	</array>
+</dict>
+</plist>
