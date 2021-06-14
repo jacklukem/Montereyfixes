@@ -26,13 +26,13 @@ rm BaseSystem.dmg.shadow
 mv ~/Downloads/BaseSystem2.dmg BaseSystem.dmg
 echo "\nPatching Monterey USB Installer can take up to 15 minutes"
 
-curl https://github.com/jacklukem/Montereyfixes/raw/master/com.apple.Boot.plist --progress-bar -L -o /private/tmp/com.apple.Boot.plist
+curl https://github.com/jacklukem/Montereyfixes/raw/main/com.apple.Boot.plist --progress-bar -L -o /private/tmp/com.apple.Boot.plist
 
-curl https://github.com/jacklukem/Montereyfixes/blob/master/MontereyBaseSystemfix/boot.efi?raw=true --progress-bar -L -o /private/tmp/boot.efi
-curl https://github.com/jacklukem/Montereyfixes/blob/master/MontereyBaseSystemfix/HaxfixUSB.zip?raw=true --progress-bar -L -o /private/tmp/HaxfixUSB.zip
-curl https://github.com/jacklukem/Montereyfixes/blob/master/MontereyBaseSystemfix/kext.zip?raw=true --progress-bar -L -o /private/tmp/kext.zip
-curl https://github.com/jacklukem/Montereyfixes/blob/master/MontereyBaseSystemfix/IntelHD4000beta3.zip?raw=true --progress-bar -L -o /private/tmp/IntelHD4000beta3.zip
-curl https://github.com/jacklukem/Montereyfixes/blob/master/MontereyBaseSystemfix/AppleIntelGraphicsShared.zip?raw=true --progress-bar -L -o /private/tmp/AppleIntelGraphicsShared.zip
+curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/boot.efi?raw=true --progress-bar -L -o /private/tmp/boot.efi
+curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/HaxfixUSB.zip?raw=true --progress-bar -L -o /private/tmp/HaxfixUSB.zip
+curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/kext.zip?raw=true --progress-bar -L -o /private/tmp/kext.zip
+curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/IntelHD4000beta3.zip?raw=true --progress-bar -L -o /private/tmp/IntelHD4000beta3.zip
+curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/AppleIntelGraphicsShared.zip?raw=true --progress-bar -L -o /private/tmp/AppleIntelGraphicsShared.zip
 cd ..
 cd Library/Preferences/SystemConfiguration/
 sudo cp -a /private/tmp/com.apple.Boot.plist .
