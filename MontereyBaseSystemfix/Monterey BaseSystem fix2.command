@@ -25,8 +25,8 @@ mv BaseSystem.dmg BaseSystembackup.dmg
 rm BaseSystem.dmg.shadow
 mv ~/Downloads/BaseSystem2.dmg BaseSystem.dmg
 echo "\nPatching Monterey USB Installer can take up to 15 minutes"
-
-curl https://github.com/jacklukem/Montereyfixes/raw/main/com.apple.Boot.plist --progress-bar -L -o /private/tmp/com.apple.Boot.plist
+echo "github blob or raw use main instead of master"
+curl https://github.com/jacklukem/Montereyfixes/raw/main/MontereyBaseSystemfix/com.apple.Boot.plist --progress-bar -L -o /private/tmp/com.apple.Boot.plist
 
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/boot.efi?raw=true --progress-bar -L -o /private/tmp/boot.efi
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/HaxfixUSB.zip?raw=true --progress-bar -L -o /private/tmp/HaxfixUSB.zip

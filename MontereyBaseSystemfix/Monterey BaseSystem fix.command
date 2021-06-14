@@ -23,7 +23,7 @@ cd /Volumes/*/BaseSystem/
 rm BaseSystem.dmg.shadow
 hdiutil attach -owners on BaseSystem.dmg -shadow
 echo "\nAdjusting Monterey APFS BaseSystem can take up to 15 minutes"
-echo "github raw use main instead of master"
+echo "github blob or raw use main instead of master"
 curl https://github.com/jacklukem/Montereyfixes/raw/main/MontereyBaseSystemfix/MontereyFixes --progress-bar -L -o /private/tmp/MontereyFixes
 curl https://github.com/jacklukem/Montereyfixes/raw/main/MontereyBaseSystemfix/Utilities.plist --progress-bar -L -o /private/tmp/Utilities.plist
 cd /Volumes/macOS\ Base\ System/System/Installation/CDIS/Recovery\ Springboard.app/Contents
