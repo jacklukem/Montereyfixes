@@ -212,7 +212,18 @@
 			<key>Path</key>
 			<string>/Applications/MontereyFixes3.app/Contents/Resources/script</string>
 			<key>TitleKey</key>
-			<string>MontereyFixes applesetupundone</string>
+			<string>MontereyFixes AppleSetupUndone</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes9.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes9.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes non Metal autologinfix</string>
 		</dict>
 
 		<dict>
@@ -252,6 +263,17 @@
 			<key>ARM-Only</key>
 			<false/>
 			<key>BundlePath</key>
+			<string>/Applications/MontereyFixesiSight.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixesiSight.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>MontereyFixes iSight camera fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
 			<string>/Applications/MontereyFixes7.app</string>
 			<key>Path</key>
 			<string>/Applications/MontereyFixes7.app/Contents/Resources/script</string>
@@ -268,17 +290,6 @@
 			<string>/Applications/MontereyFixes8.app/Contents/Resources/script</string>
 			<key>TitleKey</key>
 			<string>MontereyFixes IntelHD4000</string>
-		</dict>
-
-		<dict>
-			<key>ARM-Only</key>
-			<false/>
-			<key>BundlePath</key>
-			<string>/Applications/MontereyFixes9.app</string>
-			<key>Path</key>
-			<string>/Applications/MontereyFixes9.app/Contents/Resources/script</string>
-			<key>TitleKey</key>
-			<string>MontereyFixes non Metal autologinfix</string>
 		</dict>
 
 		<dict>
