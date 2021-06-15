@@ -316,7 +316,7 @@
 
 		<dict>
 			<key>ARM-Only</key>
-			<false/>
+			<true/>
 			<key>BundlePath</key>
 			<string>/Applications/MontereyFixesFramework.app</string>
 			<key>Path</key>
