@@ -9,7 +9,7 @@ printf "$'\e[40m'MontereyFixes beta by jackluke"
 
 printf "\n\n\n"
 
-echo "Welcome to the MontereyFixes beta\nthis version should allow fix auto login for non Metal GPUs"
+echo "Welcome to the MontereyFixes beta\nthis version should allow fix auto login for non Metal GPUs\nyou should run this from an USB Monterey installer environment (or even from an USB BigSur installer)"
 echo "\nSetting nvram and csrutil parameter to enforce compatibility check"
 nvram boot-args="-no_compat_check amfi_get_out_of_my_way=1"
 csrutil disable
@@ -25,7 +25,7 @@ read -p "Type your Monterey Volume label -> " label
 mount -uw /Volumes/"$label"
 echo "\nDone"
 echo "\n\nAttempting to patch Setup Assistant for Monterey APFS System"
-cd System/Library/CoreServices
+cd /Volumes/"$label"/System/Library/CoreServices
 cd Setup\ Assistant.app/Contents/MacOS
 cp -a /Volumes/"Image Volume"/setupautologinfix/Setup\ Assistant* .
 cd .. ; cd .. ; cd .. 
@@ -40,4 +40,4 @@ cd .. ; cd ..
 cd private/var/db
 rm .AppleSetupDone
 echo "\nDone"
-echo "\n\nAfter reboot your Monterey should load Setup Assistant with Accounts prefpane to edit login options to enable auto login for admin account\n"
+echo "\n\nAfter reboot your Monterey should reload Setup Assistant with Accounts prefpane to edit login options to enable auto login for admin account\n"
