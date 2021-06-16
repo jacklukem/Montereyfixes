@@ -10,9 +10,9 @@ on the ASentientBot method I made a patched Setup Assistant to simplify this ste
 
 if you made multiuser accounts to simply reload Setup Assistant boot through CMD+S then type:
 
-'mount -P 2
+`mount -P 2
 rm /private/var/db/.AppleSetupDone
-exit'
+exit`
 
 anyway is expectable that apple will fix this, because safe mode needs to works also without Metal acceleration for supported Mac.
 
