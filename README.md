@@ -14,9 +14,7 @@ exit
 
 anyway is expectable that apple will fix this, because safe mode needs to works also without Metal acceleration for supported Mac.
 
-Currently deleting snapshot to allow `sudo mount -uw /` is not avaibable (maybe on next beta), but if you need it you can use that feature on BigSurBaseSystemfix that will work also Monterey.
-
-## `MontereyBaseSystemfix` external recovery patcher (from here you can even delete also for `Monterey` the `com.apple.os.update` locked snapshot booting resulting in a working `mount -uw /` to make any system modifications), updated for generic Monterey 12.x beta, simply restore through DiskUtility this DMG to a minimum 2 GB USB drive [Dropbox link]()
+# `MontereyBaseSystemfix` external recovery patcher (from here you can even delete also for `Monterey` the `com.apple.os.update` locked snapshot booting resulting in a working `mount -uw /` to make any system modifications), updated for generic Monterey 12.x beta, simply restore through DiskUtility this DMG to a minimum 2 GB USB drive [Dropbox link]()
 besides DiskUtility you can use also its Apple Software Restore command line :
 ```shell
 sudo asr -source ~/Downloads/MontereyBaseSystemfix.dmg -erase -noverify -target /Volumes/YourUSBLabel
