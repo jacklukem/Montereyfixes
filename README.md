@@ -14,4 +14,6 @@ exit
 
 anyway is expectable that apple will fix this, because safe mode needs to works also without Metal acceleration for supported Mac.
 
+Currently deleting snapshot to allow `sudo mount -uw /` is not avaibable (maybe on next beta), but if you need it you can use that feature on BigSurBaseSystemfix that will work also Monterey.
+
 ![Monterey BaseSystemfix](https://user-images.githubusercontent.com/63143548/122189199-025a8a80-ce91-11eb-90c7-26d757bff18c.jpeg)
