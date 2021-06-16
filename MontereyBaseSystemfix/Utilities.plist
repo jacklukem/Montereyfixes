@@ -60,7 +60,7 @@
 
 		<dict>
 			<key>ARM-Only</key>
-			<true/>
+			<false/>
 			<key>BundlePath</key>
 			<string>/Applications/MontereyFixesMenu.app</string>
 			<key>DescriptionKey</key>
