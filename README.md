@@ -3,12 +3,9 @@
 Alpha working BaseSystem fix installer based mainly on:
 
 ASentientBot patched 0xfff boot.efi and HaxLib.dylib
+workaround to boot non metal desktop enable "auto login" from login options
 
-workaround to boot non metal desktop "enable auto login"
-
-on the ASentientBot method I made a patched Setup Assistant to simplify this step
-
-if you made multiuser accounts to simply reload Setup Assistant boot through CMD+S then type:
+on the ASentientBot method I made a patched Setup Assistant to simplify this step but if you made multiuser accounts to simply reload Setup Assistant boot targeting Monterey disk through CMD+S then type:
 
 ```shell
 mount -P 2
