@@ -14,5 +14,6 @@ account=$(whoami)
 echo "\nApplying the Monterey Safari fix to the current account: $account"
 defaults write ~/Library/Containers/com.apple.Safari/Data/Library/Preferences/com.apple.Safari.plist ExperimentalUseGPUProcessForMediaEnabled -bool FALSE
 defaults write ~/Library/Containers/com.apple.Safari/Data/Library/Preferences/com.apple.Safari.plist ExperimentalVP9SWDecoderEnabledOnBattery -bool TRUE
+defaults write com.apple.coremedia hardwareVideoDecoder -string disable
 echo "\nDone"
 echo "\n\nNow on Monterey through an IntelHD4000 (and other similar unsupported Metal GPUs and maybe also non Metal) you can play any video media streaming content through Safari, for example Youtube and others\n"
