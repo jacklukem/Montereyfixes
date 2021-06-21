@@ -4,6 +4,18 @@
 <dict>
 	<key>Buttons</key>
 	<array>
+
+		<dict>
+			<key>BundlePath</key>
+			<string>/Applications/Hax.app</string>
+			<key>DescriptionKey</key>
+			<string>Installer fix through ASentientBot HaxLib dylib</string>
+			<key>Path</key>
+			<string>/Applications/Hax.app/Contents/Resources/hax</string>
+			<key>TitleKey</key>
+			<string>Hax Installer fix</string>
+		</dict>
+
 		<dict>
 			<key>BundlePath</key>
 			<string>/System/Installation/CDIS/Time Machine System Restore.app</string>
@@ -48,14 +60,16 @@
 		</dict>
 
 		<dict>
+			<key>ARM-Only</key>
+			<false/>
 			<key>BundlePath</key>
-			<string>/Applications/Hax.app</string>
+			<string>/Applications/MontereyFixes7.app</string>
 			<key>DescriptionKey</key>
-			<string>Installer fix through ASentientBot HaxLib dylib</string>
+			<string>tool to rebuild kernelcollection and to install any kext in "custom" folder</string>
 			<key>Path</key>
-			<string>/Applications/Hax.app/Contents/Resources/hax</string>
+			<string>/Applications/MontereyFixes7.app/Contents/MacOS/MontereyFixes7</string>
 			<key>TitleKey</key>
-			<string>Hax Installer fix</string>
+			<string>MontereyFixes Rebuild KC</string>
 		</dict>
 
 		<dict>
