@@ -10,7 +10,7 @@ me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 an
 
 EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver
 
-Dhinak for retrieving beta 6 more recent Metal binaries
+Dhinak for retrieving beta 6 more updated Metal binaries
 
 khronokernel for fixing Metal google fonts (Google search bar) through BigSur com.apple.WebProcess.sb (WebKit framework)
 
