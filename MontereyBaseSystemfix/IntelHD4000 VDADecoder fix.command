@@ -16,4 +16,4 @@ defaults write ~/Library/Containers/com.apple.Safari/Data/Library/Preferences/co
 defaults write ~/Library/Containers/com.apple.Safari/Data/Library/Preferences/com.apple.Safari.plist ExperimentalVP9SWDecoderEnabledOnBattery -bool TRUE
 defaults write com.apple.coremedia hardwareVideoDecoder -string enable
 echo "\nDone"
-echo "\n\nNow on Monterey for IntelHD4000 using VDADecoderChecker should Hardware acceleration is fully supported, and YouTube and other sites streaming work too\n"
+echo "\n\nNow on Monterey for IntelHD4000 using VDADecoderChecker should print Hardware acceleration is fully supported and YouTube and other sites streaming work too\n"
