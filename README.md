@@ -12,7 +12,7 @@ EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), res
 
 Dhinak for retrieving beta 6 more updated Metal binaries
 
-khronokernel for fixing Metal google fonts (Google search bar) through BigSur com.apple.WebProcess.sb (WebKit framework)
+khronokernel for fixing Metal white overlay on Safari Google search bar through BigSur com.apple.WebProcess.sb (WebKit framework)
 
 
 I made also a patched Setup Assistant to simplify this step (Montereyfixes AppleSetupUndone and non Metal autologinfix) but if you already made multiuser accounts to simply reload Setup Assistant boot targeting Monterey disk through CMD+S then type:
