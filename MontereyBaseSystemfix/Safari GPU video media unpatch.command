@@ -14,6 +14,6 @@ account=$(whoami)
 echo "\nApplying the Monterey Safari unpatch to the current account: $account"
 defaults delete ~/Library/Containers/com.apple.Safari/Data/Library/Preferences/com.apple.Safari.plist ExperimentalUseGPUProcessForMediaEnabled
 defaults delete ~/Library/Containers/com.apple.Safari/Data/Library/Preferences/com.apple.Safari.plist ExperimentalVP9SWDecoderEnabledOnBattery
-defaults delete com.apple.coremedia hardwareVideoDecoder
+defaults write com.apple.coremedia hardwareVideoDecoder -string enable
 echo "\nDone"
 echo "\n\nNow on Monterey Safari video media settings are reset to defaults\n"
