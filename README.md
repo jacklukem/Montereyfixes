@@ -6,13 +6,13 @@ based mainly on ASentientBot patched 0xfff boot.efi and HaxLib.dylib, workaround
 
 IntelHD4000 fixes credits:
 
-me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia to disable hardware decoder
+me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia to disable hardware video decoder
 
-EduCovas for libIGIL-Metal.dylib , restart fix through updated AppleIntelFrameBufferCapri and VAdriver
+EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver
 
-Dhinak for beta 6 more recent Metal binaries
+Dhinak for retrieving beta 6 more recent Metal binaries
 
-khronokernel for fixing google fonts (through BigSur com.apple.WebProcess.sb WebKit framework)
+khronokernel for fixing Metal google fonts (Google search bar) through BigSur com.apple.WebProcess.sb (WebKit framework)
 
 
 I made also a patched Setup Assistant to simplify this step (Montereyfixes AppleSetupUndone and non Metal autologinfix) but if you already made multiuser accounts to simply reload Setup Assistant boot targeting Monterey disk through CMD+S then type:
