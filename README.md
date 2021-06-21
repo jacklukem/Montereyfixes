@@ -14,6 +14,7 @@ Dhinak for beta 6 more recent Metal binaries
 
 khronokernel for fixing google fonts (through BigSur com.apple.WebProcess.sb WebKit framework)
 
+
 I made also a patched Setup Assistant to simplify this step (Montereyfixes AppleSetupUndone and non Metal autologinfix) but if you already made multiuser accounts to simply reload Setup Assistant boot targeting Monterey disk through CMD+S then type:
 
 ```shell
