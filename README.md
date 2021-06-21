@@ -4,7 +4,11 @@ Alpha working BaseSystem fix installer: https://github.com/jacklukem/Montereyfix
 
 based mainly on ASentientBot patched 0xfff boot.efi and HaxLib.dylib, workaround to boot non metal desktop enable "auto login" from login options
 
-IntelHD4000 fixes credits: me for finding valid apple compiled Metal binaries on 11.0 beta 3 and com.apple.coremedia to disable hardware decoder, EduCovas for libIGIL-Metal.dylib , restart fix through updated AppleIntelFrameBufferCapri and VAdriver, Dhinak for beta 6 binaries, khronokernel for fixing google fonts (through Big Sur com.apple.WebProcess.sb)
+IntelHD4000 fixes credits:
+me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia to disable hardware decoder
+EduCovas for libIGIL-Metal.dylib , restart fix through updated AppleIntelFrameBufferCapri and VAdriver
+Dhinak for beta 6 more recent Metal binaries
+khronokernel for fixing google fonts (through BigSur com.apple.WebProcess.sb WebKit framework)
 
 I made also a patched Setup Assistant to simplify this step (Montereyfixes AppleSetupUndone and non Metal autologinfix) but if you already made multiuser accounts to simply reload Setup Assistant boot targeting Monterey disk through CMD+S then type:
 
