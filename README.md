@@ -11,7 +11,7 @@ mount -P 2
 rm /private/var/db/.AppleSetupDone
 exit
 ```
-https://github.com/jacklukem/Montereyfixes/raw/main/setupautologinfix/Monterey%20autologinfix.jpeg
+![Monterey autologinfix](https://github.com/jacklukem/Montereyfixes/raw/main/setupautologinfix/Monterey%20autologinfix.jpeg)
 
 anyway is expectable that apple will fix this, because safe mode needs to works also without Metal acceleration for supported Mac.
 
