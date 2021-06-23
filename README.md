@@ -12,10 +12,12 @@ rm /private/var/db/.AppleSetupDone
 exit
 ```
 
-note from CMD+S that work and it's writable from a snapshot booting:
+```
+Note from CMD+S that work and it's writable from a snapshot booting:
 "mount -P 1" mounts the APFS Preboot Volume
 "mount -P 2" mounts the APFS Data Volume
 "mount -vat nonfs" not sure but I found that on BigSur
+```
 
 ![Monterey autologinfix](https://github.com/jacklukem/Montereyfixes/raw/main/setupautologinfix/Monterey%20autologinfix.jpeg)
 
