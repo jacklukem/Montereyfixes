@@ -15,8 +15,8 @@ exit
 ```
 Other notes from CMD+S that work and volumes are writable from a snapshot booting:
 
-"mount -P 1" (mounts the APFS Preboot Volume)
-"mount -P 2" (mounts the APFS Data Volume)
+"mount -P 1" (mounts the APFS Preboot Volume, mount point is typically on /System/Volumes/)
+"mount -P 2" (mounts the APFS Data Volume, mount point is merged with /)
 "mount -vat nonfs" (verbose all non filesystem types, not sure I found that on BigSur)
 ```
 
