@@ -39,6 +39,8 @@ Dhinak for retrieving beta 6 more updated Metal binaries
 khronokernel for fixing Metal white overlay on Safari Google search bar through BigSur com.apple.WebProcess.sb (WebKit framework)
 
 
+My workaround to fix Bluetooth (on machines with 2.1 + EDR) buy a cheap USB Bluetooth 4.0 CSR based on this chip (stock Monterey drivers): https://docs.qualcomm.com/bundle/publicresource/80-CT903-1.pdf
+
 # MontereyBaseSystemfix
 external recovery patcher, from here you can delete the `com.apple.os.update` locked snapshot booting resulting in a working `sudo mount -uw /` to make any system modifications, updated for generic Monterey 12.x beta, simply restore through DiskUtility this DMG to a minimum 2 GB USB drive [Dropbox link](https://www.dropbox.com/s/j0kpnq6k0n3rrhh/montereybasesystemfix.dmg?dl=0)
 besides DiskUtility you can use also its Apple Software Restore command line :
