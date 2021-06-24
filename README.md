@@ -39,7 +39,7 @@ Dhinak for retrieving beta 6 more updated Metal binaries
 khronokernel for fixing Metal white overlay on Safari Google search bar through BigSur com.apple.WebProcess.sb (WebKit framework)
 
 
-My workaround to fix Bluetooth (on machines equipped with BT 2.1 + EDR) buy a cheap `USB Bluetooth 4.0 CSR` based on this chip (works with stock Monterey drivers): https://docs.qualcomm.com/bundle/publicresource/80-CT903-1.pdf
+My workaround to fix Bluetooth (on machines equipped with BT 2.1 + EDR) buy a cheap `USB Bluetooth 4.0 CSR` based on this chip `CSR8510`(works with stock Monterey drivers): https://docs.qualcomm.com/bundle/publicresource/80-CT903-1.pdf
 
 
 # MontereyBaseSystemfix
