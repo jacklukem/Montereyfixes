@@ -1,6 +1,6 @@
 # Montereyfixes
 
-Alpha working BaseSystem fix installer: https://github.com/jacklukem/Montereyfixes/releases
+Alpha Beta working BaseSystem fix installer: https://github.com/jacklukem/Montereyfixes/releases
 
 based mainly on ASentientBot patched 0xfff boot.efi and HaxLib.dylib, workaround to boot non metal desktop enable "auto login" from login options
 
@@ -22,9 +22,11 @@ Other notes from CMD+S that work and volumes are writable from a snapshot bootin
 
 ![Monterey autologinfix](https://github.com/jacklukem/Montereyfixes/raw/main/setupautologinfix/Monterey%20autologinfix.jpeg)
 
-anyway is expectable that apple will fix this, because safe mode needs to works also without Metal acceleration for supported Mac.
+anyway is expectable that apple will fix this, because safe mode needs to work also without Metal acceleration for supported Mac.
 
-![Monterey BaseSystemfix](https://user-images.githubusercontent.com/63143548/122189199-025a8a80-ce91-11eb-90c7-26d757bff18c.jpeg)
+Infact apple fixed the non metal login window on macOS Monterey beta 2 (21A5268h) they also changed the label and product icons.
+
+![Monterey BaseSystemfix](https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/MontereyInstallerBaseSystemfix.jpeg?raw=true)
 
 ![MontereyFixes table](https://user-images.githubusercontent.com/63143548/122200632-844fb100-ce9b-11eb-83c7-ab4e6a58c045.png)
 
