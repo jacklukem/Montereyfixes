@@ -46,7 +46,7 @@ Other notes from CMD+S that work and volumes are writable from a snapshot bootin
 
 "mount -P 1" (mounts the APFS Preboot Volume, mount point is typically on /System/Volumes/)
 "mount -P 2" (mounts the APFS Data Volume, mount point is merged with /)
-"mount -vat nonfs" (verbose all non filesystem types, not sure I found that on BigSur)
+"mount -vat nonfs" (verbose all the filesystem types, added on BigSur)
 ```
 
 ![Monterey autologinfix](https://github.com/jacklukem/Montereyfixes/raw/main/setupautologinfix/Monterey%20autologinfix.jpeg)
