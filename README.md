@@ -29,7 +29,7 @@ besides DiskUtility you can use also its Apple Software Restore command line :
 sudo asr -source ~/Downloads/MontereyBaseSystemfix.dmg -erase -noverify -target /Volumes/YourUSBLabel
 ```
 
-Note about delete snapshot: `sudo mount -uw /` works only with an unsealed System (that is when using ASentientBot Hax fix Installer), while instead if you made a Sealed System installation then after deleting snapshot you get a kp `Rooting from the live fs of a sealed volume is not allowed on a RELEASE build` , this is easily fixable from MontereyBaseSystemfix using Rebuild KC or MontereyFixes snapshot booting.
+Note about delete snapshot: `sudo mount -uw /` works only with an unsealed System (that is when using ASentientBot HaxLib Installer fix), while instead if you made a Sealed System installation then after deleting snapshot if you get a kp `Rooting from the live fs of a sealed volume is not allowed on a RELEASE build` , this is easily fixable from MontereyBaseSystemfix using Rebuild KC or MontereyFixes snapshot booting.
 
 ![MontereyBaseSystemfix2](https://user-images.githubusercontent.com/63143548/122277646-678c9b00-cee6-11eb-90b5-de013c97482f.jpeg)
 
