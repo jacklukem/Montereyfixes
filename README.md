@@ -23,11 +23,13 @@ My workaround to fix Bluetooth (on machines equipped with BT 2.1 + EDR) buy a ch
 
 
 # MontereyBaseSystemfix
-external recovery patcher, from here you can delete the `com.apple.os.update` locked snapshot booting resulting in a working `sudo mount -uw /` to make any system modifications, updated for generic Monterey 12.x beta, simply restore through DiskUtility this DMG to a minimum 2 GB USB drive [Dropbox link](https://www.dropbox.com/s/j0kpnq6k0n3rrhh/montereybasesystemfix.dmg?dl=0)
+external recovery patcher, from here you can delete the `com.apple.os.update` locked snapshot booting resulting in a working `sudo mount -uw /` to make any system modifications (this requires an unsealed System installation), updated for generic Monterey 12.x beta, simply restore through DiskUtility this DMG to a minimum 2 GB USB drive [Dropbox link](https://www.dropbox.com/s/j0kpnq6k0n3rrhh/montereybasesystemfix.dmg?dl=0)
 besides DiskUtility you can use also its Apple Software Restore command line :
 ```shell
 sudo asr -source ~/Downloads/MontereyBaseSystemfix.dmg -erase -noverify -target /Volumes/YourUSBLabel
 ```
+
+Note about delete snapshot: `sudo mount -uw /` works only with an unsealed System (that is when using ASentientBot Hax fix Installer), while instead if you made a Sealed System installation then after deleting snapshot you get a kp `Rooting from the live fs of a sealed volume is not allowed on a RELEASE build` , this is easily fixable from MontereyBaseSystemfix using Rebuild KC or MontereyFixes snapshot booting.
 
 ![MontereyBaseSystemfix2](https://user-images.githubusercontent.com/63143548/122277646-678c9b00-cee6-11eb-90b5-de013c97482f.jpeg)
 
