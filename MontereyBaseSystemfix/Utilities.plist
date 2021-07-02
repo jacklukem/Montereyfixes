@@ -9,7 +9,7 @@
 			<key>BundlePath</key>
 			<string>/Applications/Hax.app</string>
 			<key>DescriptionKey</key>
-			<string>Installer fix through ASentientBot HaxLib dylib</string>
+			<string>through ASentientBot HaxLib dylib to upgrade or install as unsealed system</string>
 			<key>Path</key>
 			<string>/Applications/Hax.app/Contents/Resources/hax</string>
 			<key>TitleKey</key>
