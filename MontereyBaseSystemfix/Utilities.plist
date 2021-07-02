@@ -187,6 +187,17 @@
 			<key>ARM-Only</key>
 			<false/>
 			<key>BundlePath</key>
+			<string>/Applications/Hax3.app</string>
+			<key>Path</key>
+			<string>/Applications/Hax3.app/Contents/MacOS/Hax3</string>
+			<key>TitleKey</key>
+			<string>Hax Seal Installer fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
 			<string>/Install macOS Big Sur Beta.app</string>
 			<key>IsInstallAssistant</key>
 			<true/>
@@ -330,7 +341,7 @@
 
 		<dict>
 			<key>ARM-Only</key>
-			<true/>
+			<false/>
 			<key>BundlePath</key>
 			<string>/Applications/MontereyFixesFramework.app</string>
 			<key>Path</key>
