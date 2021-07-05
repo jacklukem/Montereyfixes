@@ -20,7 +20,7 @@ khronokernel for fixing Metal white overlay on Safari Google search bar through 
 
 current issue with IntelHD4000 on Monterey eject key that crash to login window, anyway these will still work:
 ```shell
-CMD+E (eject selected CD or DVD)
+CMD ⌘ + E (eject selected CD or DVD)
 ctrl + eject ⏏ (shows finder power options)
 ctrl + ⇧ shift + eject ⏏ (shorcut to turn off display)
 alt ⌥ + CMD ⌘ + eject ⏏ (shortcut to stand by Mac)
