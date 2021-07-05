@@ -17,9 +17,9 @@ echo "\nSetting nvram parameter to enforce compatibility check"
 sudo nvram boot-args="-no_compat_check amfi_get_out_of_my_way=1"
 echo "Done"
 echo "\nDetecting and adjusting Monterey APFS BaseSystem"
-if [ -e /Volumes/*/BaseSystem/BaseSystem.dmg ]
+if [ -e /Volumes/Install\ macOS\ Monterey*/BaseSystem/BaseSystem.dmg ]
 then
-cd /Volumes/*/BaseSystem/
+cd /Volumes/Install\ macOS\ Monterey*/BaseSystem/
 rm BaseSystem.dmg.shadow
 hdiutil attach -owners on BaseSystem.dmg -shadow
 echo "\nAdjusting Monterey APFS BaseSystem can take up to 15 minutes"
@@ -33,7 +33,7 @@ cd /Volumes/macOS\ Base\ System/Applications/
 sudo unzip -qo -P jacklukem /private/tmp/MontereyFixes -d .
 diskutil unmount "macOS Base System"
 diskutil unmount "Preboot"
-cd /Volumes/*/BaseSystem/
+cd /Volumes/Install\ macOS\ Monterey*/BaseSystem/
 hdiutil unmount BaseSystem.dmg -force
 echo "First part Done"
 echo "\nYou now should unplug and plug again your USB Monterey Installer\nthen launch the BaseSystem fix2 to complete the patching"

@@ -17,9 +17,9 @@ echo "\nSetting nvram parameter to enforce compatibility check"
 sudo nvram boot-args="-no_compat_check amfi_get_out_of_my_way=1"
 echo "Done"
 echo "\nDetecting and adjusting Monterey APFS BaseSystem"
-if [ -e /Volumes/*/BaseSystem/BaseSystem.dmg.shadow ]
+if [ -e /Volumes/Install\ macOS\ Monterey*/BaseSystem/BaseSystem.dmg.shadow ]
 then
-cd /Volumes/*/BaseSystem/
+cd /Volumes/Install\ macOS\ Monterey*/BaseSystem/
 hdiutil convert -format ULFO -o ~/Downloads/BaseSystem2.dmg BaseSystem.dmg -shadow
 mv BaseSystem.dmg BaseSystembackup.dmg
 rm BaseSystem.dmg.shadow
@@ -32,7 +32,7 @@ curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/HaxfixUSB.zip?raw=true --progress-bar -L -o /private/tmp/HaxfixUSB.zip
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/kext.zip?raw=true --progress-bar -L -o /private/tmp/kext.zip
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/IntelHD4000beta3.zip?raw=true --progress-bar -L -o /private/tmp/IntelHD4000beta3.zip
-curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/AppleIntelGraphicsShared.zip?raw=true --progress-bar -L -o /private/tmp/AppleIntelGraphicsShared.zip
+curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/HaxLibSeal.dylib?raw=true --progress-bar -L -o /private/tmp/HaxLibSeal.dylib
 cd ..
 cd Library/Preferences/SystemConfiguration/
 sudo cp -a /private/tmp/com.apple.Boot.plist .
@@ -47,8 +47,8 @@ sudo unzip -o /private/tmp/HaxfixUSB.zip -d .
 sudo unzip -o /private/tmp/kext.zip -d .
 cd kext
 mv /private/tmp/IntelHD4000beta3.zip .
-mv /private/tmp/AppleIntelGraphicsShared.zip .
 cd ..
+mv /private/tmp/HaxLibSeal.dylib .
 mv HaxFixUSB/* .
 mv VolumeIcon.icns .VolumeIcon.icns
 rm -r HaxFixUSB __MACOSX
