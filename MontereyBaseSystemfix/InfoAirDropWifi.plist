@@ -62,6 +62,8 @@
 				<!-- AirDrop and Broadcom Wifi 802.11n valid for any product ID ≥ 0x93 (examples: MacBook7,1 , MacMini4,1 , MacBookPro6,2 and others) -->
 				<string>pci14e4,4353</string>
 				
+				<!-- both the ARPT for 4331 and 4353 should work for any Broadcom Wifi product ID ≥ 0x9* as 0xA* , 0xB* , 0xC* , 0xD* and so on -->
+				
 				<!-- stock Monterey Broadcom Wifi 802.11ac -->
 				<string>pci14e4,43ba</string>
 				<string>pci14e4,43a3</string>
