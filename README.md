@@ -6,7 +6,9 @@ based mainly on ASentientBot patched 0xfff boot.efi and HaxLib.dylib
 
 ![Monterey BaseSystemfix](https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/MontereyInstallerBaseSystemfix.jpeg?raw=true)
 
-![MontereyFixes table](https://user-images.githubusercontent.com/63143548/122200632-844fb100-ce9b-11eb-83c7-ab4e6a58c045.png)
+![MontereyFixes table](https://raw.githubusercontent.com/jacklukem/Montereyfixes/main/MontereyFixes%20table.png)
+
+Quick guide: https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix.pdf
 
 IntelHD4000 fixes credits:
 
