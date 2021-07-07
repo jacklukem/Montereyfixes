@@ -56,8 +56,13 @@
 			<string>IODefaultMatchCategory</string>
 			<key>IONameMatch</key>
 			<array>
+				<!-- AirDrop and Broadcom Wifi 802.11n valid for any Ivy Bridge product ID ≥ 0xF5 (examples: MacBookPro9,1 , MacBookPro9,2 and others) -->
 				<string>pci14e4,4331</string>
+				
+				<!-- AirDrop and Broadcom Wifi 802.11n valid for any product ID ≥ 0x93 (examples: MacBook7,1 , MacMini4,1 , MacBookPro6,2 and others) -->
 				<string>pci14e4,4353</string>
+				
+				<!-- stock Monterey Broadcom Wifi 802.11ac -->
 				<string>pci14e4,43ba</string>
 				<string>pci14e4,43a3</string>
 				<string>pci14e4,43a0</string>
