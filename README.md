@@ -14,11 +14,9 @@ IntelHD4000 fixes credits:
 
 me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia to disable hardware video decoder
 
-EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver
+EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver, com.apple.WebProcess.sb (BigSur WebKit framework) for fixing Metal white overlay on Safari Google search bar
 
-Dhinak for retrieving beta 6 more updated Metal binaries
-
-khronokernel for fixing Metal white overlay on Safari Google search bar through BigSur com.apple.WebProcess.sb (WebKit framework)
+Dhinak for retrieving beta 6 more updated Metal binaries (even if I still use beta 3 binaries)
 
 current issue with IntelHD4000 on Monterey eject key that crash to login window, anyway these will still work:
 ```shell
