@@ -28,6 +28,8 @@ ctrl + CMD ⌘ + eject ⏏ (shortcut to restart Mac)
 ctrl + alt ⌥ + CMD ⌘ + eject (shortcut to power off Mac)
 ```
 
+For AirDrop Broadcom 802.11n Wifi (vendor ID 0x14E4) through ASentientBot deduced method (from AirPortBrcmFixup), I also checked and verified that any product ID ≥ 0x9* (example 0xA* , 0xB* , 0xC* , 0xD* , 0xE* , 0xF* and so on) can use the stock IO80211FamilyLegacy's Plugin AirPortBrcmNIC (typically used from 802.11ac with a 0x three digit product ID)
+
 My workaround to fix Bluetooth (on machines equipped with BT 2.1 + EDR) buy a cheap `USB Bluetooth 4.0 CSR` based on this chip `CSR8510`(works with stock Monterey drivers): https://docs.qualcomm.com/bundle/publicresource/80-CT903-1.pdf
 
 
