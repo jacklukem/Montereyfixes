@@ -12,13 +12,13 @@ Quick guide: https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSy
 
 IntelHD4000 fixes credits:
 
-me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia to disable hardware video decoder
+me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia for hardware video decoder
 
-EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver, com.apple.WebProcess.sb (BigSur WebKit framework) for fixing Metal white overlay on Safari Google search bar
+EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver, com.apple.WebProcess.sb (BigSur WebKit framework) for fixing Metal white overlay on Safari Google search bar, DRM fix
 
 Dhinak for retrieving beta 6 more updated Metal binaries (even if I still use beta 3 binaries)
 
-current issue with IntelHD4000 on Monterey eject key that crash to login window, anyway these will still work:
+current issue with IntelHD4000 on Monterey eject key that crash to login window (fixed by apple on Monterey beta 3 build 21A5284e), anyway these will still work:
 ```shell
 CMD ⌘ + E (eject selected CD or DVD)
 ctrl + eject ⏏ (shows finder power options)
