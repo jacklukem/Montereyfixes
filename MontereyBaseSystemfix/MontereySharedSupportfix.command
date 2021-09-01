@@ -21,7 +21,7 @@ SharedSupport="$(ls ~/Downloads/InstallAssistant.pkg)";
 if [ -e /Volumes/Install\ macOS\ Monterey*/BaseSystem/BaseSystem.dmg ] && [ -e "$SharedSupport" ] ;
 then
 echo "\nMonterey Installer app found, now copying the updated SharedSupport.dmg to the target MontereyBaseSystemfix, this might take up to 15 minutes\n"
-sudo cp -a ~/Downloads/InstallAssistant.pkg /Volumes/Install\ macOS\ Monterey*/*.app/Contents/SharedSupport/
+sudo cp -a ~/Downloads/InstallAssistant.pkg /Volumes/Install\ macOS\ Monterey*/*.app/Contents/SharedSupport/SharedSupport.dmg
 echo "\nDone\n"
 echo "\nAfter reboot your Monterey stage2 macOS Installer should use an updated SharedSupport.dmg with BootKernelExtensions.kc as prelinkedkernel\n"
 else
