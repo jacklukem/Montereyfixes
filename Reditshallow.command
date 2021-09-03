@@ -15,18 +15,15 @@ touch ~/this.isrecent
 touch ~/this2.isrecent
 ls -l ~/Desktop > /tmp/check.this
 ls -l ~/Downloads > /tmp/check2.this
-diff /tmp/check.this ~/this.isrecent || echo "something changed"
-diff /tmp/check2.this ~/this.isrecent || echo "something else changed"
+diff /tmp/check.this ~/this.isrecent || echo "something is changing"
+diff /tmp/check2.this ~/this2.isrecent || echo "something else changing"
 thischanged=$(diff /tmp/check.this ~/this.isrecent)
 this2changed=$(diff /tmp/check2.this ~/this2.isrecent) 
-if [ "$thischanged" != "" ] 
+if [ "$thischanged" != "" ] || [ "$this2changed" != "" ] 
 then
-    echo "The directory was modified"
+    echo "The folder is modified"
     cp /tmp/check.this ~/this.isrecent
-    xattr -dr com.apple.quarantine ~/Desktop
-elif [ "$this2changed" != "" ] 
-then
-    echo "The directory was modified"
     cp /tmp/check2.this ~/this2.isrecent
+    xattr -dr com.apple.quarantine ~/Desktop
     xattr -dr com.apple.quarantine ~/Downloads
 fi
