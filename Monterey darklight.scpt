@@ -5,11 +5,13 @@ tell application "System Events"
 			do shell script "defaults write -g ASB_DarkMenuBar -bool false"
 			do shell script "killall Finder"
 			do shell script "killall ControlCenter"
+			do shell script "killall Spotlight"
 		else
 			set dark mode to false
 			do shell script "defaults write -g ASB_DarkMenuBar -bool true"
 			do shell script "killall Finder"
 			do shell script "killall ControlCenter"
+			do shell script "killall Spotlight"
 		end if
 	end tell
 end tell
