@@ -18,6 +18,8 @@ EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), res
 
 Dhinak for retrieving beta 6 more updated Metal binaries (even if I still use beta 3 binaries)
 
+ASentientBot, Khronokernel and Dhinak for fixing legacy Bluetooth cards
+
 current issue with IntelHD4000 on Monterey eject key that crash to login window (fixed by apple on Monterey beta 3 build 21A5284e), anyway these will still work:
 ```shell
 CMD ⌘ + E (eject selected CD or DVD)
