@@ -31,6 +31,8 @@ curl https://github.com/jacklukem/Montereyfixes/raw/main/MontereyBaseSystemfix/c
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/boot.efi?raw=true --progress-bar -L -o /private/tmp/boot.efi
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/HaxfixUSB.zip?raw=true --progress-bar -L -o /private/tmp/HaxfixUSB.zip
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/kext.zip?raw=true --progress-bar -L -o /private/tmp/kext.zip
+curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/kext2.zip?raw=true --progress-bar -L -o /private/tmp/kext2.zip
+curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/kext3.zip?raw=true --progress-bar -L -o /private/tmp/kext3.zip
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/IntelHD4000beta3.zip?raw=true --progress-bar -L -o /private/tmp/IntelHD4000beta3.zip
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/HaxLibSeal.dylib?raw=true --progress-bar -L -o /private/tmp/HaxLibSeal.dylib
 cd ..
@@ -45,6 +47,8 @@ cd .. ; cd .. ; cd ..
 mkdir custom
 sudo unzip -o /private/tmp/HaxfixUSB.zip -d .
 sudo unzip -o /private/tmp/kext.zip -d .
+sudo unzip -o /private/tmp/kext2.zip -d kext/
+sudo unzip -o /private/tmp/kext3.zip -d kext/
 cd kext
 mv /private/tmp/IntelHD4000beta3.zip .
 cd ..
