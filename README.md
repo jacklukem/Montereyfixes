@@ -10,6 +10,8 @@ based mainly on ASentientBot patched 0xfff boot.efi and HaxLib.dylib
 
 Quick guide: https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix.pdf
 
+From Monterey beta 7 added Nvidia Kepler drivers from 11.0 beta 3 (same technique as IntelHD4000 apple compiled Metal binaries) 
+
 IntelHD4000 fixes credits:
 
 me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia for hardware video decoder
