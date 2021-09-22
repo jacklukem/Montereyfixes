@@ -380,7 +380,7 @@
 			<key>Path</key>
 			<string>/Applications/MontereyFixes8.app/Contents/Resources/script</string>
 			<key>TitleKey</key>
-			<string>MontereyFixes IntelHD4000</string>
+			<string>MontereyFixes IntelHD4000 and Nvidia Kepler</string>
 		</dict>
 
 		<dict>

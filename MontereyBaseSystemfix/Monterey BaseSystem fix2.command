@@ -34,6 +34,7 @@ curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/kext2.zip?raw=true --progress-bar -L -o /private/tmp/kext2.zip
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/kext3.zip?raw=true --progress-bar -L -o /private/tmp/kext3.zip
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/IntelHD4000beta3.zip?raw=true --progress-bar -L -o /private/tmp/IntelHD4000beta3.zip
+curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/nvidiakepler.zip?raw=true --progress-bar -L -o /private/tmp/nvidiakepler.zip
 curl https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/HaxLibSeal.dylib?raw=true --progress-bar -L -o /private/tmp/HaxLibSeal.dylib
 cd ..
 cd Library/Preferences/SystemConfiguration/
@@ -51,6 +52,7 @@ sudo unzip -o /private/tmp/kext2.zip -d kext/
 sudo unzip -o /private/tmp/kext3.zip -d kext/
 cd kext
 mv /private/tmp/IntelHD4000beta3.zip .
+mv /private/tmp/nvidiakepler.zip .
 cd ..
 mv /private/tmp/HaxLibSeal.dylib .
 mv HaxFixUSB/* .
