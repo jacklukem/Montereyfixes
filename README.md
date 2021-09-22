@@ -10,6 +10,9 @@ based mainly on ASentientBot patched 0xfff boot.efi and HaxLib.dylib
 
 Quick guide: https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix.pdf
 
+both the BaseSystem fix and installer are updated often, it's also usable the same Monterey installer for stage1, just download the current InstallAssistant.pkg, then updating the SharedSupport.dmg for stage2 through this (through ASentientBot method of renaming the .pkg to .dmg):
+https://github.com/jacklukem/Montereyfixes/releases/download/1.0/MontereySharedSupportfix.zip
+
 From Monterey beta 7 added Nvidia Kepler drivers from 11.0 beta 3 (same technique as IntelHD4000 apple compiled Metal binaries) 
 
 IntelHD4000 fixes credits:
