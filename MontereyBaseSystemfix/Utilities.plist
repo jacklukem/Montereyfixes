@@ -237,7 +237,18 @@
 			<key>Path</key>
 			<string>/Applications/MontereyFixes.app/Contents/Resources/BTUSBfix</string>
 			<key>TitleKey</key>
-			<string>Bluetooth Transport USB fixes</string>
+			<string>Bluetooth 2 Transport USB fixes</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/MontereyFixes.app</string>
+			<key>Path</key>
+			<string>/Applications/MontereyFixes.app/Contents/Resources/BT4USBfix</string>
+			<key>TitleKey</key>
+			<string>Bluetooth 4 BLE and USB CSR fixes</string>
 		</dict>
 
 		<dict>
