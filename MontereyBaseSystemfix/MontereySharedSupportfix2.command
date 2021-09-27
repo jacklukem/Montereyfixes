@@ -24,8 +24,8 @@ echo "\nMonterey Installer app found, now copying the updated SharedSupport.dmg 
 cd ~/Downloads/
 mv InstallAssistant.pkg SharedSupport.dmg
 hdiutil attach -nobrowse SharedSupport.dmg
-sudo mkdir /Volumes/"Install macOS Monterey*/*.app"/Contents/SharedSupport/
-cd /Volumes/"Install macOS Monterey*/*.app"/Contents/SharedSupport/
+sudo mkdir /Volumes/Install\ macOS\ Monterey*/*.app/Contents/SharedSupport/
+cd /Volumes/Install\ macOS\ Monterey*/*.app/Contents/SharedSupport/
 echo "\nCopying SharedSupport folders and files to target USB this might take up to 15 minutes\n"
 sudo cp -aR /Volumes/"Shared Support"/* .
 hdiutil unmount /Volumes/"Shared Support"
