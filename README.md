@@ -32,6 +32,8 @@ ASentientBot, Khronokernel and Dhinak for fixing legacy Bluetooth cards
 
 ASentientBot and Khronokernel for insights about beta 7 installer firmware checking
 
+ASentientBot general non metal GPU acceleration fixes (included CoreDisplay for dualGPUs or iGPU)
+
 current issue with IntelHD4000 on Monterey eject key that crash to login window (fixed by apple on Monterey beta 3 build 21A5284e), anyway these will still work:
 ```shell
 CMD ⌘ + E (eject selected CD or DVD)
