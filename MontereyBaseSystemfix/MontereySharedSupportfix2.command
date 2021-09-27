@@ -27,7 +27,7 @@ hdiutil attach -nobrowse SharedSupport.dmg
 sudo mkdir /Applications/"Install macOS Monterey*/*.app"/Contents/SharedSupport/
 cd /Volumes/"Install macOS Monterey*/*.app"/Contents/SharedSupport/
 echo "\nCopying SharedSupport folders and files to target USB this might take up to 15 minutes\n"
-sudo cp -aR sudo cp -R /Volumes/"Shared Support"/* .
+sudo cp -aR /Volumes/"Shared Support"/* .
 hdiutil unmount /Volumes/"Shared Support"
 echo "\nDone\n"
 echo "\nAfter reboot your Monterey stage2 macOS Installer should use the unpackaged Assets from SharedSupport.dmg with BootKernelExtensions.kc as prelinkedkernel\n"
