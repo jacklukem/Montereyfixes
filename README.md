@@ -13,17 +13,24 @@ Quick guide: https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSy
 both the BaseSystem fix and installer are updated often, it's also usable the same Monterey installer for stage1, just download the current InstallAssistant.pkg, then updating the SharedSupport.dmg for stage2 through this (ASentientBot method of renaming the .pkg to .dmg):
 https://github.com/jacklukem/Montereyfixes/releases/download/1.0/MontereySharedSupportfix.zip
 
-From Monterey beta 7 added Nvidia Kepler drivers from 11.0 beta 3 (same technique as IntelHD4000 apple compiled Metal binaries) 
+temporary fix (until apple fix) for making a valid USB beta 7 installer:
+https://github.com/jacklukem/Montereyfixes/releases/download/1.0/MontereySharedSupportfix2.zip
+
+From Monterey beta 7 added Nvidia Kepler hybrid drivers from 11.0 beta 3 (same technique as IntelHD4000 apple compiled Metal binaries) and stock Monterey beta 6
 
 IntelHD4000 fixes credits:
 
 me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia for hardware video decoder
 
-EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver, com.apple.WebProcess.sb (BigSur WebKit framework) for fixing Metal white overlay on Safari Google search bar, DRM fix, legacy Wifi patches
+EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver, com.apple.WebProcess.sb (BigSur WebKit framework) for fixing Metal white overlay on Safari Google search bar, AppleGVA DRM fix, legacy Wifi patches
+
+ASentientHedgehog and EduCovas for fixing non metal acceleration borders through BigSur QuartzCore
 
 Dhinak for retrieving beta 6 more updated Metal binaries (even if I still use beta 3 binaries)
 
 ASentientBot, Khronokernel and Dhinak for fixing legacy Bluetooth cards
+
+ASentientBot and Khronokernel for insights about beta 7 installer firmware checking
 
 current issue with IntelHD4000 on Monterey eject key that crash to login window (fixed by apple on Monterey beta 3 build 21A5284e), anyway these will still work:
 ```shell
