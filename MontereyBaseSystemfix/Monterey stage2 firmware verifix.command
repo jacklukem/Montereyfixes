@@ -32,6 +32,12 @@ sudo chmod uo+rw /Volumes/*/"macOS Install Data"/"Locked Files"/
 cd /Volumes/*/"macOS Install Data"/"Locked Files"/
 sudo perl -pi -e 's|\00\64\69\72\65\63\74\5f\68\61\6e\64\6f\66\66\00\45\6e\61\62\6c\65\20\64\69\72\65\63\74\20\68\61\6e\64\6f\66\66\20\66\6f\72\20\72\65\61\6c\74\69\6d\65\20\74\68\72\65\61\64\73\00|\00\68\76\5f\76\6d\6d\5f\70\72\65\73\65\6e\74\00\45\6e\61\62\6c\65\20\64\69\72\65\63\74\20\68\61\6e\64\6f\66\66\20\66\6f\72\20\72\65\61\6c\74\69\6d\65\20\74\68\72\65\61\64\73\00|g' BootKernelExtensions.kc
 sudo perl -pi -e 's|\00\68\76\5f\64\69\73\61\62\6c\65\00\68\76\5f\76\6d\6d\5f\70\72\65\73\65\6e\74\00|\00\68\76\5f\64\69\73\61\62\6c\65\00\64\69\72\65\63\74\5f\68\61\6e\64\6f\66\66\00|g' BootKernelExtensions.kc
+echo "\nPatching the boot files for macOS Installer as vmm"
+sudo chflags -R nouchg /Volumes/*/"macOS Install Data"/"Locked Files"/"Boot Files"/
+sudo chmod uo+rw /Volumes/*/"macOS Install Data"/"Locked Files"/"Boot Files"/
+cd /Volumes/*/"macOS Install Data"/"Locked Files"/"Boot Files"/
+sudo perl -pi -e 's|\00\64\69\72\65\63\74\5f\68\61\6e\64\6f\66\66\00\45\6e\61\62\6c\65\20\64\69\72\65\63\74\20\68\61\6e\64\6f\66\66\20\66\6f\72\20\72\65\61\6c\74\69\6d\65\20\74\68\72\65\61\64\73\00|\00\68\76\5f\76\6d\6d\5f\70\72\65\73\65\6e\74\00\45\6e\61\62\6c\65\20\64\69\72\65\63\74\20\68\61\6e\64\6f\66\66\20\66\6f\72\20\72\65\61\6c\74\69\6d\65\20\74\68\72\65\61\64\73\00|g' BootKernelExtensions.kc
+sudo perl -pi -e 's|\00\68\76\5f\64\69\73\61\62\6c\65\00\68\76\5f\76\6d\6d\5f\70\72\65\73\65\6e\74\00|\00\68\76\5f\64\69\73\61\62\6c\65\00\64\69\72\65\63\74\5f\68\61\6e\64\6f\66\66\00|g' BootKernelExtensions.kc
 echo "\nDone\n"
 echo "\nAfter reboot either your Monterey stage1 and stage2 macOS Installer should use a patched BaseSystem with BootKernelExtensions.kc as BKE vmm to skip firmware verification \n"
 else
