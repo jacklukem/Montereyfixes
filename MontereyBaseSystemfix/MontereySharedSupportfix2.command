@@ -23,7 +23,7 @@ then
 echo "\nMonterey Installer app found, now copying the updated SharedSupport.dmg to the target MontereyBaseSystemfix, this might take up to 15 minutes\n"
 cd ~/Downloads/
 mv InstallAssistant.pkg SharedSupport.dmg
-hdiutil attach -nobrowse SharedSupport.dmg
+hdiutil attach -nobrowse -noverify SharedSupport.dmg
 cd /Volumes/Install\ macOS\ Monterey*/*.app/Contents/
 sudo mkdir SharedSupport
 cd SharedSupport
