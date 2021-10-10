@@ -13,8 +13,11 @@ Quick guide: https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSy
 both the BaseSystem fix and installer are updated often, it's also usable the same Monterey installer for stage1, just download the current InstallAssistant.pkg, then updating the SharedSupport.dmg for stage2 through this (ASentientBot method of renaming the .pkg to .dmg):
 https://github.com/jacklukem/Montereyfixes/releases/download/1.0/MontereySharedSupportfix.zip
 
+from beta 9 apple added the vector Monterey with 8 dynamic wallpaper pictures, attached an example with reduced quality
+
 temporary fix (until apple fix) for making a valid USB beta 7 installer:
 https://github.com/jacklukem/Montereyfixes/releases/download/1.0/MontereySharedSupportfix2.zip
+This method of copying the already extracted SharedSupport folder still works on beta 9 and I added also a method to skip the sha256 verify, so when it doesn't match still allows to continue the stage1 installer (preparing the macOS Install Data)
 
 From Monterey beta 7 added Nvidia Kepler hybrid drivers from 11.0 beta 3 (same technique as IntelHD4000 apple compiled Metal binaries) and stock Monterey beta 6
 
@@ -31,6 +34,8 @@ Dhinak for retrieving beta 6 more updated Metal binaries (even if I still use be
 ASentientBot, Khronokernel and Dhinak for fixing legacy Bluetooth cards
 
 ASentientBot and Khronokernel for insights about beta 7 installer firmware checking
+
+Khronokernel and parrotgeek1 for patching hypervisor vmm on kernel from BigSur 11.3 and later
 
 ASentientBot general non metal GPU acceleration fixes (included CoreDisplay for dualGPUs or iGPU)
 
