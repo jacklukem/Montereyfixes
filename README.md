@@ -13,7 +13,9 @@ Quick guide: https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSy
 both the BaseSystem fix and installer are updated often, it's also usable the same Monterey installer for stage1, just download the current InstallAssistant.pkg, then updating the SharedSupport.dmg for stage2 through this (ASentientBot method of renaming the .pkg to .dmg):
 https://github.com/jacklukem/Montereyfixes/releases/download/1.0/MontereySharedSupportfix.zip
 
-from beta 9 apple added the vector Monterey with 8 dynamic wallpaper pictures, attached an example with reduced quality
+added from beta 9 two methods to binary patch directly the BKE to allow OTA updates directly from apple startup manager and to continue the stage2 installer without firmware checking
+
+from beta 9 apple added the vector Monterey desktop heic with 8 dynamic wallpaper pictures, attached an example with reduced quality
 
 temporary fix (until apple fix) for making a valid USB beta 7 installer:
 https://github.com/jacklukem/Montereyfixes/releases/download/1.0/MontereySharedSupportfix2.zip
