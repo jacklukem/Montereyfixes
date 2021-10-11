@@ -26,7 +26,7 @@ From Monterey beta 7 added Nvidia Kepler hybrid drivers from 11.0 beta 3 (same t
 
 IntelHD4000 fixes credits:
 
-me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia for hardware video decoder
+me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia for hardware video decoder and direct binary patch the Preboot BKE kc (or its target kernelcollections path) without making a new snapshot and while keeping stock system kernel (a simple kcditto removes the patch)
 
 EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver, com.apple.WebProcess.sb (BigSur WebKit framework) for fixing Metal white overlay on Safari Google search bar, AppleGVA DRM fix, legacy Wifi patches
 
