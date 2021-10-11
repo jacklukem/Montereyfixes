@@ -2,7 +2,7 @@
 
 Alpha Beta working BaseSystem fix installer: https://github.com/jacklukem/Montereyfixes/releases
 
-based mainly on ASentientBot patched 0xfff boot.efi and HaxLib.dylib
+based mainly on [ASentientBot](https://github.com/ASentientBot) patched 0xfff boot.efi and HaxLib.dylib
 
 ![Monterey BaseSystemfix](https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/MontereyInstallerBaseSystemfix.jpeg?raw=true)
 
@@ -34,13 +34,13 @@ ASentientHedgehog and EduCovas for fixing non metal acceleration borders through
 
 Dhinak for retrieving beta 6 more updated Metal binaries (even if I still use beta 3 binaries)
 
-ASentientBot, Khronokernel and Dhinak for fixing legacy Bluetooth cards
+ASentientBot, [dhinakg](https://github.com/dhinakg) and khronokernel for fixing bluetool legacy Bluetooth cards
 
-ASentientBot and Khronokernel for insights about beta 7 installer firmware checking
+ASentientBot and khronokernel for insights about beta 7 installer firmware checking
 
-Khronokernel and parrotgeek1 for patching hypervisor vmm on kernel from BigSur 11.3 and later
+[khronokernel](https://github.com/khronokernel) and [parrotgeek1](https://github.com/parrotgeek1) for patching hypervisor vmm on kernel from BigSur 11.3 and later
 
-ASentientBot general non metal GPU acceleration fixes (included CoreDisplay for dualGPUs or iGPU)
+[ASentientBot](https://github.com/ASentientBot) general non metal GPU acceleration fixes (included CoreDisplay for dualGPUs or iGPU)
 
 current issue with IntelHD4000 on Monterey eject key that crash to login window (fixed by apple on Monterey beta 3 build 21A5284e), anyway these will still work:
 ```shell
