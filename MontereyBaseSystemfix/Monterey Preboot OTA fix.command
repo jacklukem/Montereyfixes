@@ -17,6 +17,8 @@ csrutil disable
 csrutil authenticated-root disable
 echo "\nDone\n"
 printf '\033[1;38;5;226m'
+echo "\nListing the APFS disks\n"
+diskutil list | grep APFS
 echo "\nDetecting and adjusting Monterey APFS Preboot\n"
 diskutil list | grep Preboot
 echo "\n(if you have multiple Preboot type the diskXsY with largest MB size)\n" 
@@ -45,6 +47,8 @@ sudo perl -pi -e 's|\x00\x68\x76\x5f\x64\x69\x73\x61\x62\x6c\x65\x00\x68\x76\x5f
 cd .. ; cd .. ; cd .. ; cd ..
 cd System/Library/CoreServices/
 mv PlatformSupport.plist PlatformSupport.plist2
+echo "\nSwitching to Beta Update channel"
+sudo /System/Library/PrivateFrameworks/Seeding.framework/Resources/seedutil enroll DeveloperSeed
 echo "Done"
 echo "\nAfter reboot your Monterey should boot should boot directly from apple startup manager allowing OTA updates\n"
 else
