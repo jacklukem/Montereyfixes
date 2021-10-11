@@ -17,10 +17,10 @@ csrutil disable
 csrutil authenticated-root disable
 echo "\nDone\n"
 printf '\033[1;38;5;226m'
-echo "\nDetecting and adjusting BigSur APFS Preboot\n"
+echo "\nDetecting and adjusting Monterey APFS Preboot\n"
 diskutil list | grep Preboot
 echo "\n(if you have multiple Preboot type the diskXsY with largest MB size)\n" 
-read -p "Type your diskXsY (for example disk3s2) BigSur APFS Volume label -> " prelabel
+read -p "Type your diskXsY (for example disk3s2) Monterey APFS Volume label -> " prelabel
 diskutil mount $prelabel
 if [ -e /Volumes/Preboot/*/boot/System/Library/KernelCollections/ ]
 then
@@ -45,6 +45,6 @@ mv PlatformSupport.plist PlatformSupport.plist2
 echo "Done"
 echo "\nAfter reboot your Monterey should boot should boot directly from apple startup manager allowing OTA updates\n"
 else
-echo "\nWarning: you have multiple separate APFS containers to find your correct BigSur APFS Preboot type:\n\ndiskutil unmount Preboot\ndiskutil list | grep Preboot\n(select the largest MB Preboot and mount)\ndiskutil list | grep Preboot\ndiskutil mount diskXsY\n\nafter mounted diskXsY relaunch the fix\n\n"
+echo "\nWarning: you have multiple separate APFS containers to find your correct Monterey APFS Preboot type:\n\ndiskutil unmount Preboot\ndiskutil list | grep Preboot\n(select the largest MB Preboot and mount)\ndiskutil list | grep Preboot\ndiskutil mount diskXsY\n\nafter mounted diskXsY relaunch the fix\n\n"
 diskutil list | grep Preboot
 fi
