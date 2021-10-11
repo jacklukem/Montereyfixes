@@ -11,8 +11,10 @@ printf "\n\n\n"
 
 clear && printf '\e[3J'
 echo "Welcome to the Monterey Preboot OTA fix beta\nthis version should fix booting without nvram compat_check and even without opencore, allowing OTA updates booting directly from apple startup manager (to work properly this requires a sealed system installation and a snapshot)"
-echo "\nSetting nvram and csrutil parameter to enforce compatibility check"
-nvram boot-args="-no_compat_check"
+echo "\nMonterey Preboot OTA fix beta can't be executed as standard user if you want to suspend the script just press CTRL+Z"
+echo "\nto apply this fix your current account password is required\notherwise the script can't process\n"
+echo "\nSetting nvram parameter to enforce compatibility check"
+sudo nvram boot-args="-no_compat_check"
 csrutil disable
 csrutil authenticated-root disable
 echo "\nDone\n"
@@ -21,7 +23,7 @@ echo "\nListing the APFS disks\n"
 diskutil list | grep APFS
 echo "\nDetecting and adjusting Monterey APFS Preboot\n"
 diskutil list | grep Preboot
-echo "\n(if you have multiple Preboot type the diskXsY with largest MB size)\n" 
+echo "\n(if you have multiple Preboot check from previous list which belongs to Monterey diskX then type the diskXs2 with largest MB size)\n" 
 read -p "Type your diskXsY (for example disk3s2) Monterey APFS Volume label -> " prelabel
 diskutil mount $prelabel
 if [ -e /Volumes/Preboot/*/boot/System/Library/KernelCollections/ ]
