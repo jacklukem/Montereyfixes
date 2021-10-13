@@ -4,6 +4,9 @@ Alpha Beta working BaseSystem fix installer: https://github.com/jacklukem/Monter
 
 based mainly on [ASentientBot](https://github.com/ASentientBot) patched 0xfff boot.efi and HaxLib.dylib
 
+allows to perform a full OTA update directly from apple startup manager, tested on beta 10 build 21A5552a:
+https://github.com/jacklukem/Montereyfixes/blob/main/Monterey%20Preboot%20OTA%20fix.zip
+
 ![Monterey BaseSystemfix](https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/MontereyInstallerBaseSystemfix.jpeg?raw=true)
 
 ![MontereyFixes table](https://raw.githubusercontent.com/jacklukem/Montereyfixes/main/MontereyFixes%20table.png)
