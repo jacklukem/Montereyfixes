@@ -10,7 +10,7 @@ printf "$'\e[40m'Monterey Preboot OTA fix beta by jackluke"
 printf "\n\n\n"
 
 clear && printf '\e[3J'
-echo "Welcome to the Monterey Preboot OTA fix beta\nthis version should fix booting without nvram compat_check and even without opencore, allowing OTA updates booting directly from apple startup manager (to work properly this requires a sealed system installation and a snapshot)"
+echo "Welcome to the Monterey Preboot OTA fix beta\nthis version should fix booting without nvram compat_check and even without opencore, allowing OTA updates booting directly from apple startup manager only requirement is a snapshot booting (it works even with an unsealed system)"
 echo "\nMonterey Preboot OTA fix beta can't be executed as standard user if you want to suspend the script just press CTRL+Z"
 echo "\nto apply this fix your current account password is required\notherwise the script can't process\n"
 echo "\nSetting nvram parameter to enforce compatibility check"
@@ -52,7 +52,7 @@ mv PlatformSupport.plist PlatformSupport.plist2
 echo "\nSwitching to Beta Update channel"
 sudo /System/Library/PrivateFrameworks/Seeding.framework/Resources/seedutil enroll DeveloperSeed
 echo "Done"
-echo "\nAfter reboot your Monterey should boot should boot directly from apple startup manager allowing OTA updates\n"
+echo "\nAfter reboot your Monterey should boot directly from apple startup manager allowing OTA updates\n"
 else
 echo "\nWarning: you have multiple separate APFS containers to find your correct Monterey APFS Preboot type:\n\ndiskutil unmount Preboot\ndiskutil list | grep Preboot\n(select the largest MB Preboot and mount)\ndiskutil list | grep Preboot\ndiskutil mount diskXsY\n\nafter mounted diskXsY relaunch the fix\n\n"
 diskutil list | grep Preboot
