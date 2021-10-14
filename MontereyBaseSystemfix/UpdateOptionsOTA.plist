@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>DoNotSeal</key>
+	<true/>
+
+	<key>update-path</key>
+	<string>/System/Volumes/Update/softwareupdate.650.buBZ6e/</string>
+	<key>update-volume-path</key>
+	<string>/System/Volumes/Update</string>
+</dict>
+</plist>
