@@ -7,7 +7,7 @@
 	<true/>
 
 	<key>update-path</key>
-	<string>/System/Volumes/Update/softwareupdate.650.buBZ6e/</string>
+	<string>/System/Volumes/Update/softwareupdate.3digitsnumbers.6digitschars/</string>
 	<key>update-volume-path</key>
 	<string>/System/Volumes/Update</string>
 </dict>
