@@ -31,9 +31,9 @@ IntelHD4000 fixes credits:
 
 me for finding valid apple compiled Metal, GL binaries bundles on 11.0 beta 3 and com.apple.coremedia for hardware video decoder and direct binary patch the Preboot BKE kc (or its target kernelcollections path) without making a new snapshot and while keeping stock system kernel (a simple kcditto removes the patch)
 
-EduCovas for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver, com.apple.WebProcess.sb (BigSur WebKit framework) for fixing Metal white overlay on Safari Google search bar, AppleGVA DRM fix, legacy Wifi patches
+[EduCovas](https://github.com/educovas) for Catalina AppleIntelGraphicsShared.bundle (libIGIL-Metal.dylib), restart fix through updated 11.4 AppleIntelFrameBufferCapri and VADriver, com.apple.WebProcess.sb (BigSur WebKit framework) for fixing Metal white overlay on Safari Google search bar, AppleGVA DRM fix, legacy Wifi patches
 
-ASentientHedgehog and EduCovas for fixing non metal acceleration borders through BigSur QuartzCore
+[ASentientHedgehog](https://github.com/moosethegoose2213) and EduCovas for fixing non metal acceleration borders through BigSur QuartzCore
 
 Dhinak for retrieving beta 6 more updated Metal binaries (even if I still use beta 3 binaries)
 
@@ -42,6 +42,8 @@ ASentientBot, [dhinakg](https://github.com/dhinakg) and khronokernel for fixing 
 ASentientBot and khronokernel for insights about beta 7 installer firmware checking
 
 [khronokernel](https://github.com/khronokernel) and [parrotgeek1](https://github.com/parrotgeek1) for patching hypervisor vmm on kernel from BigSur 11.3 and later
+
+[fabioroberto](https://github.com/fabioiop) for MBP Nvidia GT330M kp fix
 
 [ASentientBot](https://github.com/ASentientBot) general non metal GPU acceleration fixes (included CoreDisplay for dualGPUs or iGPU)
 
