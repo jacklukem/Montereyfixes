@@ -16,6 +16,13 @@ Quick guide: https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSy
 both the BaseSystem fix and installer are updated often, it's also usable the same Monterey installer for stage1, just download the current InstallAssistant.pkg, then updating the SharedSupport.dmg for stage2 through this (ASentientBot method of renaming the .pkg to .dmg):
 https://github.com/jacklukem/Montereyfixes/releases/download/1.0/MontereySharedSupportfix.zip
 
+currently the Preboot OTA update fix for RC full OTA is not yet showed or available, probably some changes occurred on SDK macosx12.0.1.internal , currently investigating
+
+you can now optionally free about 10 GB removing the unused dyld shared caches (probably this breaks OTA updates, because apple might check integrity also there):
+```shell
+rm /System/Library/dyld/aot_shared_cache* /System/Library/dyld/dyld_shared_cache_arm64e* /System/Library/dyld/dyld_shared_cache_x86_64h*
+```
+
 added from beta 9 two methods to binary patch directly the BKE kc on Preboot volume (or anywhere is loaded from system) with the new vmm hypervisor to allow OTA updates (and to continue the stage2 installer without firmware checking) also through booting from apple startup manager (anyway still require a sealed system and a snapshot), this is doable simply because the BKE already embeds the kernel without LZFSE compression
 
 from beta 9 apple added the vector Monterey desktop heic with 8 dynamic wallpaper pictures, attached an example with reduced quality
