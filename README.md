@@ -4,6 +4,8 @@ Alpha Beta working BaseSystem fix installer: https://github.com/jacklukem/Monter
 
 based mainly on [ASentientBot](https://github.com/ASentientBot) patched 0xfff boot.efi and HaxLib.dylib
 
+coming soon experimental dyld shared cache patching (also making System smaller removing about 10 GB of unused dyld shared caches stuffs)
+
 perform a full OTA update directly booting from apple startup manager (works also on unsealed system), tested on beta 10 build 21A5552a:
 https://github.com/jacklukem/Montereyfixes/blob/main/Monterey%20Preboot%20OTA%20fix.zip
 
