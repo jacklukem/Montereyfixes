@@ -8,7 +8,8 @@ coming soon experimental dyld shared cache patching (also making System smaller 
 
 perform a full OTA update directly booting from apple startup manager (works also on unsealed system), tested on beta 10 build 21A5552a:
 https://github.com/jacklukem/Montereyfixes/blob/main/Monterey%20Preboot%20OTA%20fix.zip
-Note the minimum requirement to correctly detect an OTA update is a snapshot booting (sealed system is optional), because the snapshot automatically mounts on Monterey desktop folder /System/Volumes/ the Preboot and Update disks both required to proceed with OTA downloading an preparing
+
+Note the minimum requirement to properly detect an OTA update is a snapshot booting (sealed system is optional), because the snapshot (if not stock should have a long uuid or name string to align correctly) automatically mounts on Monterey desktop folder /System/Volumes/ the Preboot and Update disks both required to proceed with OTA downloading and preparing
 
 ![Monterey BaseSystemfix](https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSystemfix/MontereyInstallerBaseSystemfix.jpeg?raw=true)
 
