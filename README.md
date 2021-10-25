@@ -66,6 +66,7 @@ ASentientBot and khronokernel for insights about beta 7 installer firmware check
 - @Syncretic telemetrap.kext , AAAMouSSE.kext and tips for adding Legacy USB IOKitPersonalities
 - @Barry K. Nathan method of replacing kext already present on a BaseSystem (with ULFO compression), deleting snapshots and gnuefi binaries similar to setvars function
 - @cdf OpenCore thread on MacRumors
+- @Dayo and @startergo for RefindPlus
 - @hvds testing MontereyBaseSystemfix with an external root Legacy USB device
 
 current issue with IntelHD4000 on Monterey eject key that crash to login window (fixed by apple on Monterey beta 3 build 21A5284e), anyway these will still work:
