@@ -54,9 +54,19 @@ ASentientBot and khronokernel for insights about beta 7 installer firmware check
 
 [khronokernel](https://github.com/khronokernel) and [parrotgeek1](https://github.com/parrotgeek1) for patching hypervisor vmm on kernel from BigSur 11.3 and later
 
-[fabioroberto](https://github.com/fabioiop) for MBP Nvidia GT330M kp fix
+[fabioroberto](https://github.com/fabioiop) for Nvidia GT330M kp fix on dualGPUs Arrandale MacBookPro
 
 [ASentientBot](https://github.com/ASentientBot) general non metal GPU acceleration fixes (included CoreDisplay for dualGPUs or iGPU)
+
+- @ASentientBot HaxLib.dylib, Nvidia Tesla fixes, 0xfff boot.efi , apfs_systemsnapshot (to fix “sudo mount -uw /“) , nvenet.kext and IOHIDFamily (single user mode patch)
+- @parrotgeek1 LegacyUSBInjector.kext
+- @dosdude1 IntelHD and AMD non metal OpenGL patches
+- acidanthera opencore developers
+- @khronokernel ACPI patch for Arrandale Intel architecture through opencore
+- @Syncretic telemetrap.kext , AAAMouSSE.kext and tips for adding Legacy USB IOKitPersonalities
+- @Barry K. Nathan method of replacing kext already present on a BaseSystem (with ULFO compression), deleting snapshots and gnuefi binaries similar to setvars function
+- @cdf OpenCore thread on MacRumors
+- @hvds testing MontereyBaseSystemfix with an external root Legacy USB device
 
 current issue with IntelHD4000 on Monterey eject key that crash to login window (fixed by apple on Monterey beta 3 build 21A5284e), anyway these will still work:
 ```shell
