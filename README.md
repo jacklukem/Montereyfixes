@@ -20,6 +20,8 @@ Quick guide: https://github.com/jacklukem/Montereyfixes/blob/main/MontereyBaseSy
 both the BaseSystem fix and installer are updated often, it's also usable the same Monterey installer for stage1, just download the current InstallAssistant.pkg, then updating the SharedSupport.dmg for stage2 through this (ASentientBot method of renaming the .pkg to .dmg):
 https://github.com/jacklukem/Montereyfixes/releases/download/1.0/MontereySharedSupportfix.zip
 
+With 12.1 beta (21C5021h) apple fixed the VMM ota updates but there is a new issue on 21.2.0 kernel that now is compatible only with Ivy Bridge or later (experts developers probably could find a kernel patch for earlier Intel architecture)
+
 currently the Preboot OTA update fix for RC full OTA is not yet showed or available, probably some changes occurred on SDK macosx12.0.1.internal , currently investigating
 
 you can now optionally free about 10 GB removing the unused dyld shared caches (probably this breaks OTA updates, because apple might check integrity also there):
