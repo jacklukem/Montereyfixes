@@ -6,6 +6,9 @@ based mainly on [ASentientBot](https://github.com/ASentientBot) patched 0xfff bo
 
 coming soon experimental dyld shared cache patching (also making System smaller removing about 10 GB of unused dyld shared caches stuffs)
 
+added a new experimental 12.1 beta kernel patch from Syncretic to allow any staged BKE to boot from non Metal Mac:
+https://github.com/jacklukem/Montereyfixes/blob/main/Monterey%20BKE%20staged%20fix.zip
+
 perform a full OTA update directly booting from apple startup manager (works also on unsealed system), tested on beta 10 build 21A5552a:
 https://github.com/jacklukem/Montereyfixes/blob/main/Monterey%20Preboot%20OTA%20fix.zip
 
